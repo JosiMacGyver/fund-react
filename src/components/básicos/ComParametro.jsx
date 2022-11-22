@@ -1,7 +1,6 @@
 import React from "react"
 
 export default function (props) {
-    console.log(props)
     //props são somente leitura, não dá para alterar
 
     const status = props.nota >= 7 ? 'Aprovado' : 'Recuperação'
