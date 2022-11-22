@@ -1,13 +1,11 @@
 import ReactDOM from 'react-dom'
 import React from 'react'
 import './index.css'
-import Primeiro from './components/básicos/Primeiro'
+import App from './App.jsx'
 
 const tag = <strong> Hello World!</strong>
 
 ReactDOM.render(
-    <>
-        <Primeiro/>
-    </>,
+   <App/>,
     document.getElementById('root')
 )
