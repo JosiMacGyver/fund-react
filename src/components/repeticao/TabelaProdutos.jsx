@@ -8,7 +8,7 @@ export default (props) => {
         return (
             <tr 
             key={produto.id} 
-            className={i%2 == 0 ? 'Par' : 'Impar'}
+            className={i%2 === 0 ? 'Par' : 'Impar'}
             >
                 <td>{produto.id}</td>
                 <td>{produto.nome}</td>
